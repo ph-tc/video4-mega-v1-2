@@ -651,9 +651,9 @@ img {
 	.main .btn-wrapper {
 		top: auto;
 		bottom: 52px;
-		-webkit-transform: translate(0, -35px);
-		-ms-transform: translate(0, -35px);
-		transform: translate(0, -35px);
+		-webkit-transform: translate(0, -27px);
+		-ms-transform: translate(0, -27px);
+		transform: translate(0, -27px);
 	}
 }
 

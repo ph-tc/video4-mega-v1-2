@@ -108,6 +108,10 @@
 			} else { buttonWrap['style']['marginTop'] = 0; }
 
 			document.body.style.height = window.innerHeight + 'px';
+
+			buttonWrap.addEventListener('click', function() {
+				alert(getComputedStyle(buttonWrap).marginTop);
+			});
 		}
 		setInterval(function() {
 				rsz()
