@@ -104,20 +104,10 @@
 			footer['style']['bottom'] = "auto";
 			footer['style']['top'] = (window['innerHeight'] - footer.offsetHeight) + 'px';
 			if ((window['innerHeight'] > 212) && (window['innerHeight'] < 233)) {
-					buttonWrap['style']['top'] = "auto";
-					buttonWrap['style']['bottom'] = footer.offsetHeight + 'px';
-					buttonWrap['style']['marginBottom'] = '-30px';
-			} else {
-				buttonWrap['style']['top'] = "";
-				buttonWrap['style']['bottom'] = '';
-				buttonWrap['style']['marginBottom'] = 0;
-			}
+					buttonWrap['style']['marginBottom'] = '20px';
+			} else { buttonWrap['style']['marginBottom'] = 0; }
 
 			document.body.style.height = window.innerHeight + 'px';
-
-			buttonWrap.addEventListener('click', function() {
-				alert(getComputedStyle(buttonWrap).marginTop);
-			});
 		}
 		setInterval(function() {
 				rsz()
