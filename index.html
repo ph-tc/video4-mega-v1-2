@@ -104,8 +104,14 @@
 			footer['style']['bottom'] = "auto";
 			footer['style']['top'] = (window['innerHeight'] - footer.offsetHeight) + 'px';
 			if ((window['innerHeight'] > 212) && (window['innerHeight'] < 233)) {
-					buttonWrap['style']['marginBottom'] = '-'+ (footer.offsetHeight-55) + 'px';
-			} else { buttonWrap['style']['marginBottom'] = 0; }
+					buttonWrap['style']['top'] = "auto";
+					buttonWrap['style']['bottom'] = footer.offsetHeight + 'px';
+					buttonWrap['style']['marginBottom'] = '-30px';
+			} else {
+				buttonWrap['style']['top'] = "";
+				buttonWrap['style']['bottom'] = '';
+				buttonWrap['style']['marginBottom'] = 0;
+			}
 
 			document.body.style.height = window.innerHeight + 'px';
 
