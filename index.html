@@ -100,7 +100,7 @@
 		//<![CDATA[
 		function rsz() {
 			var footer = document['getElementById']('footer');
-			var buttonWrap = document['getElementsByClassName']('btn-wrapper')[0];
+			var buttonWrap = document['getElementById']('btn-wrapper');
 			footer['style']['bottom'] = "auto";
 			footer['style']['top'] = (window['innerHeight'] - footer.offsetHeight) + 'px';
 			if ((window['innerHeight'] > 212) && (window['innerHeight'] < 233)) {
