@@ -497,7 +497,7 @@ img {
 	background-repeat: no-repeat;
 }
 
-@media screen and (max-height: 270px) {
+@media screen and (max-height: 280px) {
 	.description {
 		display: none;
 	}
