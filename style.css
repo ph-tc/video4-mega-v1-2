@@ -647,7 +647,7 @@ img {
   }
 }
 
-@media screen and (max-height: 240px) and (orientation: landscape) {
+@media screen and (max-height: 230px) and (orientation: landscape) {
 	.main .btn-wrapper {
 		top: auto;
 		bottom: 52px;
