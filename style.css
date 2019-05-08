@@ -623,6 +623,12 @@ img {
   }
 }
 
+@media screen and (max-height: 270px) {
+  .main .btn-wrapper {
+		top: 50%;
+  }
+}
+
 @media screen and (max-height: 620px) {
   .main .btn {
     width: 35vh;
@@ -641,7 +647,7 @@ img {
   }
 }
 
-@media screen and (max-height: 200px) and (orientation: landscape) {
+@media screen and (max-height: 230px) and (orientation: landscape) {
 	.main .btn-wrapper {
 		top: auto;
 		bottom: 52px;
