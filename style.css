@@ -623,7 +623,7 @@ img {
   }
 }
 
-@media screen and (max-height: 270px) {
+@media screen and (max-height: 380px) {
   .main .btn-wrapper {
 		top: 50%;
   }
